@@ -159,7 +159,7 @@ set(JUST_INSTALL_YGM TRUE)
 FetchContent_Declare(
     ygm
     GIT_REPOSITORY https://github.com/LLNL/ygm.git
-    GIT_TAG main
+    GIT_TAG master
 )
 FetchContent_MakeAvailable(ygm)
 
